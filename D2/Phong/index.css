@@ -1,0 +1,125 @@
+#body{
+    width: 700px;
+    height: 730px;
+    background-color: rgb(62, 184, 167);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top{
+    height: 35px;
+    background-color: rgb(74, 97, 201);
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.left{
+    width: 300px;
+    height: 730px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(156, 189, 204);
+}
+
+.right{
+    width: 400px;
+    height: 730px;
+    color: rgb(230, 17, 27);
+    background-color: rgb(130, 149, 172);
+}
+
+#photo{
+    width:70% ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.ten{
+    margin-left: 20px;
+}
+.ttcn{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.tuoi{
+    margin-left: 20px;
+}
+.gioitinh{
+    margin-left: 20px;
+}
+.sdt{
+    margin-left: 20px;
+}
+
+.kynang{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.ngu{
+    margin-left: 20px;
+}
+.choi{
+    margin-left: 20px;
+}
+.hoc{
+    margin-left: 20px;
+}
+.an{
+    margin-left: 20px;
+}
+
+.mt{
+    margin-left: 10px;
+    margin-top: 40px;
+    
+}
+.kn{
+    margin-left: 10px;
+}
+.hv{
+    margin-left: 10px;
+}
+.hd{
+    margin-left: 10px;
+}
+.kt{
+    margin-left: 10px;
+}
+.bl1{
+    margin-left: 10px;
+    color: black;
+}
+.bl2{
+    margin-left: 10px;
+    color: black;
+}
+.bl21{
+    margin-left: 10px;
+    color: rgb(77, 33, 33);
+}
+.bl3{
+    margin-left: 10px;
+    color: black;
+}
+.bl31{
+    margin-left: 10px;
+    color: rgb(77, 33, 33);
+}
+.bl4{
+    margin-left: 10px;
+    color: rgb(77, 33, 33);
+}
+.bl5{
+    margin-left: 10px;
+    color: rgb(77, 33, 33);
+}
+
+.md{
+    margin-left: 250px;
+    color: rgb(248, 142, 3);
+
+}
