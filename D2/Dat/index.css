@@ -1,0 +1,50 @@
+#body{
+    width: 35%;
+    height: 720px;
+    background-color: rgb(189, 235, 238);
+    margin-left: auto;
+    margin-right: auto;
+}
+.left{
+    float: left;
+    width: 22%;
+    height: 620px;
+    background-color: rgba(212, 245, 241, 0.925);
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.right{
+    float: right;
+    width: 40%;
+    height: 520 px;
+    background-color: rgb(227, 247, 255);
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.small_right {
+    text-align: center;
+    padding: 0 0 0 0;
+
+    background-color: #90bcc56b;
+    height: 100px;
+    padding-top: 1px;
+}
+.mauChu {
+    color: rgb(58, 58, 189);
+}
+.inDam {
+    font-weight: bold;
+}
+
+.avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
