@@ -1,0 +1,67 @@
+#body {
+    width: 150px;
+    height: 150px;
+    /* display: flex; */
+    background-color: rgb(245, 4, 205);
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+    position: relative;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: spiral;
+    animation-duration: 2s;
+    animation-direction: normal; 
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    
+
+}
+/* Cach 1 */
+/* @keyframes spiral {
+    from {
+        transform: rotate(720deg)
+        translate(-0px) 
+        rotate(-360deg);
+        
+        
+    }
+    to {
+        transform: rotate(0deg)
+        translate(-150px)
+        rotate(0deg);
+    }
+} */
+
+/* Cach 2 */
+@keyframes spiral {
+    0%{
+        top: 0px;
+      left: 0px;
+        background-color: red;
+    }
+    20%{
+        top: 0px;
+        left: 400px;
+        background-color: rgb(22, 236, 32);
+    }
+    40%{
+        top: 400px;
+        left: 400px;
+        background-color: rgb(248, 115, 7);
+    }
+    60%{
+        left: 0px;
+        top: 400px;
+        background-color: rgb(22, 236, 32);
+    }
+    80%{
+        right: 200px;
+        top: 0px;
+        background-color: rgb(22, 236, 32);
+    }
+    100%{
+        top: 0px;
+      left: 0px;
+        background-color: red;
+    }
+}
