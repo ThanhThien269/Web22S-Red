@@ -1,0 +1,16 @@
+#username{
+    width: 337px;
+}
+.container::after{
+    position: absolute;
+    left: 265px;
+    top: 123px;
+    content: '@gmail.com';
+}
+.text{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+#image{
+    
+}
