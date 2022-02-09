@@ -1,0 +1,46 @@
+.tiles{
+    text-align: center;
+}
+.container{
+    border-radius: 50%;
+  
+    animation: move 4s ease-out 100ms infinite alternate forwards;
+    -webkit-animation: move 4s ease-out 100ms infinite alternate forwards;
+
+}
+@keyframes move {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+@-webkit-keyframes move{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
