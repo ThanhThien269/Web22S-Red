@@ -1,7 +1,7 @@
 #body {
     width: 800px;
-    height: 800px;
-    background-color: rgb(255, 255, 255);
+    height: 850px;
+    background-color: white;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -9,8 +9,8 @@
 
 .left {
     width: 500px;
-    height: 780px;
-    background-color: rgb(247, 248, 248);
+    height: 830px;
+    background-color: white;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 5px;
@@ -19,8 +19,8 @@
 
 .right {
     width: 300px;
-    height: 780px;
-    background-color: rgb(28, 159, 163);
+    height: 830px;
+    background-color: white;
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 10px;
@@ -58,6 +58,7 @@
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .t2 {
@@ -66,6 +67,7 @@
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .t3 {
@@ -74,6 +76,7 @@
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .tt1 {
@@ -83,7 +86,7 @@
 }
 
 .tt2 {
-    color: rgb(8, 128, 233);
+    color: blue;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -94,6 +97,7 @@
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .t5 {
@@ -108,4 +112,76 @@
     color: rgb(7, 9, 10);
     margin-left: 20px;
     margin-right: 10px;
+}
+
+.fname1 {
+    margin-left: 5px;
+}
+
+.fname2 {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.fname3 {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.fname4 {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.fname5 {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.dn {
+    color: blue;
+    margin-left: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:active {
+    background-color: blue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.logo2 {
+    margin-top: 60%;
+}
+
+.tt4 {
+    margin-left: 20px;
+}
+
+.chinhbutton {
+    margin-left: 70%;
+}
+
+.chinhcheckbox {
+    margin-left: 20px;
 }
