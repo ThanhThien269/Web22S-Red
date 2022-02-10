@@ -1,16 +1,44 @@
 #username{
     width: 337px;
 }
-.container::after{
-    position: absolute;
-    left: 265px;
-    top: 123px;
-    content: '@gmail.com';
-}
+
 .text{
     color: blue;
     font-family: 'Times New Roman', Times, serif;
 }
 #image{
+    margin-top: 10%;
+}
+.layout{
+    display: flex;
+    width: 800px;
+    height:720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-style: solid;
+}
+.left{
+    width: 500px;
+    height: 720px;
     
+}
+.right{
+    width: 300px;
+    height: 720px;
+    
+}
+.space{
+    margin-top: 30px;
+}
+#checkbox{
+    width: 20px;
+    height: 20px;
+}
+  
+.button1{
+    color: blue;
+}
+.button2{
+    background-color: blue;
 }
