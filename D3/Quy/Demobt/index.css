@@ -17,23 +17,43 @@
     margin-right: auto;
     margin-top: 100px;
     border-style: solid;
+    border-radius: 50px;
+    border-color: gainsboro;
 }
 .left{
     width: 500px;
     height: 720px;
+    margin-left: 50px;
+    margin-top: 10px;
     
 }
 .right{
     width: 300px;
     height: 720px;
+    margin-right: 30px;
+    margin-top: 20%;
     
 }
-.space{
-    margin-top: 30px;
+#fname{
+    width: 200px;
+    height: 20px;
+}
+#username{
+    width: 200px;
+    height: 20px;
+}
+#password{
+    width: 200px;
+    height: 20px;
 }
 #checkbox{
     width: 20px;
     height: 20px;
+}
+.button{
+    padding: 15px 32px;
+    text-size-adjust: 50px;
+    font-size: large;
 }
   
 .button1{
@@ -41,4 +61,6 @@
 }
 .button2{
     background-color: blue;
+    margin-left: 100px;
+    color: white;
 }
