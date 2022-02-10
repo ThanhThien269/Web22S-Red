@@ -2,37 +2,14 @@
 <html>
     <head>
         <title>Login </title>
-        <link rel="stylesheet" href="/login.css">
+        <link rel="stylesheet" href="./login.css">
     </head>
+    
 <body>
-
-<!-- <h2>Tạo Tài khoản Google</h2>
 <div class="container">
-<form action="/action_page.php">
-    <div class="left">
-        <label for="fname">Ho:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>  
-    </div>
-    <img style="height: 300px;width: 200px;" src="./googlesvg.png">
-  <div class="right">
-  <label for="lname">Ten:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br>
-    </div>
-    <label for="tname">Ten nguoi dung:</label><br>
-    <input type="text" id="tname" name="tname" value=""><br>
-  <div class="left">
-    <label for="matkhau">Mat khau:</label><br>
-    <input type="text" id="matkhau" name="matkhau" value=""><br>
-    </div>
-    <div class="right">
-        <label for="xacnhan">Ma xac nhan:</label><br>
-        <input type="text" id="xacnhan" name="xacnhan" value=""><br>
-        <input type="submit" value="Đăng ký">
-</div>
-</form> 
-</div> -->
     <div id="parent" >
         <div class="left" >
+            <img  src="./1.png">
             <h3>Tạo Tài khoản Google</h3>
             <label for="fname">Họ:</label><br>
             <input placeholder="Nhập họ" type="text"id="fname" >
@@ -41,7 +18,9 @@
             <br>
             <div class="space" >
                 <label class="space" for="username">Tên người dùng:</label>
-                <input class="username" placeholder="Nhập tên người dùng" type="text">
+                <input class="username" placeholder="Nhập tên người dùng             @gmail.com" type="text">
+                <br>
+                <label for="Chuthich">Bạn có thể sử dụng chữ cái, số hay dấu chấm </label>
             </div>
             <br>
             <div class="space" >
@@ -50,11 +29,21 @@
                 <label for="MaXN">Xác nhận:</label>
             <input placeholder="Nhập mã xác nhận" type="text"id="MaXN">
             <br>
+            <label for="Chuthich">Sử dụng 8 ký tự trở lên và kết hợp chữ cái, chữ số và biểu tượng</label>
+            <br>
             </div>
+            <div class="space">
+                <input type="checkbox" id="vehicle1" name="vehicle1">
+                <label for="vehicle1"> Hiện thị mật khẩu</label><br>
+            </div>
+        <div class="space">
+            <button class="button1">Đăng nhập</button>
+            <button class="button2">Tiếp theo</button>
+        </div>
            
         </div>
         <div class="right" >
-            <img class="image" src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" alt="">
+            <img class="image" src="./google.png">
         </div>
     </div>
 </body>

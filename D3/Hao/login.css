@@ -32,32 +32,55 @@
 #parent{
     width: 800px;
     height: 720px;
-    background-color: white;
+    background-color: rgb(24, 23, 23);
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    border-radius: 10%;
+    border-style: double;
 }
 .left{
     width: 500px;
     height: 720px;
     background-color: white;
-    border-radius: 10%;
+    
 
 }
 .right{
     width: 300px;
     height: 720px;
     background-color: white;
-    border-radius: 10%;
+   
 }
 
 .username{
-    width: 80%;
+    width: 77%;
 }
 .image{
-    margin-top: 80%;
+    width: 300px;
+    height: 350px;
+
 }
 .space{
-    margin-top: 50px;
+    margin-top: 30px;
 }
+
+.button1 {
+    border: none;
+    color:b;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.button2 {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
