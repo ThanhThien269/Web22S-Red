@@ -1,23 +1,53 @@
 let group =[
     {
-        photourl: "https://cdn.cloudflare.steamstatic.com/steam/apps/1313860/header.jpg?t=1610974344",
+        photourl: "./assets/images/FiFA21.jpg",
         name: "EA SPORT FIFA 21 Champions Edition", 
-        price: 1750000,
+        price: "1.750.000đ",
     }, 
     {
-        photourl: "https://cdn.divineshop.vn/image/catalog/Anh-SP-New/Tien/Anh SP/7.7/tài khoản BF4.png?hash=1626925143",
+        photourl: "./assets/images/Battlefield4.jpg",
         name: "Tài khoản Battlefield 4 (Origin)",
-        price: 500000,
+        price: "500.000đ",
     },
     {
-        photourl: "https://steamcdn-a.akamaihd.net/steam/apps/941973/header.jpg",
+        photourl: "./assets/images/DevilMayCry5.jpg",
         name: "Devil May Cry 5 - 1000000 Red Orbs",
-        price:  273000,
+        price:  "273.000đ",
     },
     {
-        photourl: "https://cdn.divineshop.vn/image/catalog/Anh-san-pham/gtaprev.jpg?hash=1604888770",
+        photourl: "./assets/images/GTA5online.jpg",
         name: "GTA Grand Thieft Auto V: Premium Online Edition",
-        price: 22500,
+        price: "225.000đ",
+    },
+    {
+        photourl: "./assets/images/Blasphemous.jpg",
+        name: "Blasphemous",
+        price: "296.000đ",
+    },
+    {
+        photourl:"./assets/images/Pubg.jpg",
+        name: "PUBG",
+        price: "700.000đ",
+    },
+    {
+        photourl:"./assets/images/genshin.jpg",
+        name: "Genshin Impact",
+        price: "Free",
+    },
+    {
+        photourl:"./assets/images/Forza.jpg",
+        name: "Forza horizon 5",
+        price: "1.000.000đ",
+    },
+    {
+        photourl:"./assets/images/Subnautica.jpg",
+        name: "Subnautica",
+        price: "900.000đ",
+    },
+    {
+        photourl: "./assets/images/Awayout.jpg",
+        name: "A way out",
+        price: "600.000đ",
     },
 
 ];
@@ -45,6 +75,6 @@ for(let i = 0; i<group.length; i++){
     itemBox.appendChild(document.createElement("br"));
     // itemBox.appendChild(button);
     container[0].appendChild(itemBox);
-    contentBox
+
 }
 console.log(container[0]);
