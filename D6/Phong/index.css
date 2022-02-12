@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+}
+
+.body9 {
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.815);
+    display: flex;
+}
+
+.logo {
+    width: 31%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.selec {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.815);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+    /* margin: 10px;
+    border-style: solid;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888; */
+}
+
+.login {
+    width: 25%;
+    height: 50px;
+    /* background-color: rgba(0, 0, 0, 0.815); */
+}
+
+.login1 {
+    width: 25%;
+    height: 50px;
+    color: white;
+}
+
+.home {
+    width: 25%;
+    height: 50px;
+    /* background-color: rgba(0, 0, 0, 0.815); */
+    display: flex;
+}
+
+.home1 {
+    width: 25%;
+    height: 50px;
+    color: yellow;
+}
+
+.shop {
+    width: 25%;
+    height: 50px;
+    /* background-color: rgba(0, 0, 0, 0.815); */
+    display: flex;
+}
+
+.shop1 {
+    width: 25%;
+    height: 50px;
+    color: white;
+}
+
+.more {
+    width: 25%;
+    height: 50px;
+    /* background-color: rgba(0, 0, 0, 0.815); */
+    display: flex;
+}
+
+.more1 {
+    width: 25%;
+    height: 50px;
+    color: white;
+}
+
+
+/* .boxtrong {
+    width: 20%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.815);
+    display: flex;
+} */
+
+.poster {
+    width: 100px;
+    height: 100px;
+}
+
+.name {
+    color: white;
+    text-align: center;
+}
+
+.price {
+    color: white;
+}
+
+.description {
+    color: white;
+}
+
+.box {
+    flex: 1 1 150px;
+    /*  Stretching: */
+    flex: 0 1 150px;
+    /*  No stretching: */
+    margin: 50px;
+    margin: 100px;
+    border-style: solid;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    display: flex;
+}
