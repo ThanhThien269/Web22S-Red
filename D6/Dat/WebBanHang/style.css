@@ -1,0 +1,85 @@
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img.poster {
+    width: 400px;
+    padding: 20px;
+}
+
+.item {
+    width: auto;
+    height: auto;
+    margin: 100px;
+    border-style: solid;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+button {
+    float: right;
+    margin-top: -10%;
+    margin-right: 5%;
+    width: 80px;
+    height: 40px;
+}
+
+.guide {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(59 130 246/0.5);
+}
+
+.title {
+    width: 100%;
+    height: 150px;
+    background-color: #2579f2;
+}
+
+.title-1 {
+    width: 100%;
+    height: 100px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-burger {
+    width: 100px;
+    height: 100px;
+}
+
+.btn-1 {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.title-2 {
+    width: 300px;
+    height: 100px;
+    padding-top: 25px;
+    border: 20%;
+    background-color: antiquewhite;
+}
+
+.btn-2 {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.btn-search {
+    width: 300px;
+    height: 100px;
+}
