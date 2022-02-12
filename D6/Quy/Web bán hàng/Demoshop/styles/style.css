@@ -6,20 +6,30 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    height: 300vh;
+    width: 100px;
+    height: 100px;
 }
 .item{
     display: relative;
     flex-wrap: wrap;
     justify-content: center;
-    flex: 1 1 150px; /*  Stretching: */
-    flex: 0 1 150px; /*  No stretching: */
-    width: 500px;
-    height: 400px;
+    flex: 1 1 150px;
+    flex: 0 1 150px;
     margin: 5px;
+    width: 100%;
+    height: auto;
     padding-left: 60px;
     text-align: center;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1px ) and (max-device-width:300px) {
+  .logo{
+    display: none;
+  }
+  .item{
+    display: none;
+  }
 }
 img.poster{
   margin-top: 50px;
