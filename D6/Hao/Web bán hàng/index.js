@@ -76,7 +76,7 @@ for(let i = 0; i < group.length;i++){
     name.style = "font-size:30px; color:#FF0000";
 
     let price = document.createElement("h4");
-
+price.className="text " + i;
     let img = document.createElement("img");
     img.src= group[i].photoURL;
     img.className="poster "+i;  
@@ -87,6 +87,7 @@ for(let i = 0; i < group.length;i++){
 
     let buyBtn = document.createElement("button");
     buyBtn.innerHTML = "Mua";
+    buyBtn.className="bt " +i;
     itemBox1.appendChild(img);
     itemBox1.appendChild(price);
     itemBox1.appendChild(name);
