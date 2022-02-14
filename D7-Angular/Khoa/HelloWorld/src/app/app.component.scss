@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.body {
+	height: 100vh;
+	color: #ccc;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(120deg, #3ca7ee, #9b408f);
+}
+
+.input {
+  border-radius: 15px;
+  text-align: center;
+  border: none;
+  font-size: 33px;
+  font-family: Montserrat, sans-serif;
+}
+
+.button {
+  margin-top: 2px;
+  padding: 5px;
+  font-size: 5px;
+  font-family: Montserrat, sans-serif;
+  border: 0.01px solid black;
+}
+
+.container {
+	max-width: 400px;
+	margin: 10vh auto 0 auto;
+	box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+}
+
+#display {
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+	padding: 16px 8px;
+	font-size: 25px;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons .div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.button {
+	border: 0.5px solid #999;
+	line-height: 100px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+
+.button:hover {
+  background-color: #323330;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.equal {
+    	border: 0.5px solid #999;
+	    line-height: 100px;
+	    text-align: center;
+	    font-size: 25px;
+	    cursor: pointer;
+}
+
+.equal:hover {
+  background-color: red;
+  color: #ccc;
+  transition: 0.5s ease-in-out;
+}
