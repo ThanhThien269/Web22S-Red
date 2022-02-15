@@ -1,0 +1,61 @@
+
+form {
+    background: rgb(148, 148, 228);
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(238, 129, 189);
+}
+form * {
+    box-sizing: border-box;
+    outline: none;
+   
+  }
+  
+  form table {
+    width: 100%;
+    //  border-collapse: collapse;
+    border: 5px;
+
+  }
+  
+  form table tr, form table td {
+    // border: 3px solid #eee;
+ 
+    
+  }
+  
+  form table tr:first-child input {
+    height: 65px;
+    padding: 0 5px;
+    
+  }
+  
+  form table tr:not(:first-child) td {
+    height: 70px;
+  }
+  
+  form table tr:not(:first-child) td input {
+    height: 100%;
+  }
+  
+  form table input {
+    width: 100%;
+    display: block;
+    border: 0;
+    font-size: 16px;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 100px;
+    margin-top: 3%;
+  }
+  
+  
+  form table input.operator {
+    font-weight: 700;
+    color: #fff;
+    background: #ffcc00;
+  }
+form table input#equal{
+    color: black;
+}
