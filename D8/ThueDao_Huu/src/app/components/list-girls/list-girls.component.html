@@ -1,0 +1,9 @@
+<!-- <div class="container" >
+    <app-girl *ngFor="let girl of listGirl" [girl]="girl" ></app-girl>
+</div> -->
+
+<div class="container">
+    <div *ngFor="let girl of listGirl"  >
+        <app-girl [girl]="girl" ></app-girl>
+    </div>
+</div>
