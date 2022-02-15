@@ -1,0 +1,10 @@
+<div class="layout">
+    <div class="container">
+    <img [src]="item.photourl">
+    <p class="name">{{item.name}}</p>
+    <p *ngIf="item.price != 'Free'" class="price">{{item.price}} vnđ</p>
+    <p *ngIf="item.price  == 'Free'" class="price">{{item.price}}</p>
+        <button class="cart" mat-stroked-button color="primary">Buy</button>
+    
+</div>
+</div>
