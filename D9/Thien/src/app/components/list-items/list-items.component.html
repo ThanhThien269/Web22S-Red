@@ -1,0 +1,9 @@
+<div class="container">
+    <div  class="layout">
+        <app-item *ngFor="let item of ListItem" [item]="item"></app-item>
+    </div>
+</div>
+
+<div>
+    <button (click)="getTotal()">Total</button>
+</div>

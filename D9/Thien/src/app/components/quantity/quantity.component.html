@@ -1,0 +1,9 @@
+<div class="charge">
+    <p style="color: red;">SL:{{SL}}</p>
+    <div class="counter">
+        <button mat-raised-button style=" width: fit-content;background-color: black;color: yellow;" (click)="decrement()">-</button>
+        <p style="color: white; font-size: larger;margin-top: 2px;">{{couter}}</p>
+        <button mat-raised-button style="width: fit-content;background-color: black;color: yellow;" (click)="increment()">+</button>
+    </div>
+    <button class="btn" (click)="buy()" > Buy </button>  
+</div>
