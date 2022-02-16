@@ -1,0 +1,15 @@
+<!-- <div class="container" >
+    <app-girl *ngFor="let girl of listGirl" [girl]="girl" ></app-girl>
+</div> -->
+
+<div class="container">
+    <div *ngFor="let girl of listGirl"  >
+        <app-girl (onChangeGirl)="girl.timelimit = $event " [girl]="girl" ></app-girl>
+    </div>
+</div>
+
+<div>
+    <button (click)="getTotal()" style="width:100px;height:50px">
+        Total for all
+    </button>
+</div>
