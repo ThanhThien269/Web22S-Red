@@ -1,0 +1,7 @@
+<div class="container-list-item">
+    <app-item *ngFor="let item of ListItem" [item]="item" (itemChange)="item.quantity=$event" ></app-item>
+</div>
+
+<div>
+    <button (click)="this.paymentSv.tinhTongTien(ListItem)" >Tinh tong tien</button>
+</div>
